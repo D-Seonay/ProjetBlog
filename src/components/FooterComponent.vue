@@ -2,7 +2,7 @@
 
     <footer>
 
-        <p>&copy; 2023 Mon Blog</p>
+        <p>&copy; 2023 Seonay Blog</p>
 
     </footer>
 
@@ -19,15 +19,16 @@
 <style lang="scss">
 
     footer {
-        background-color: #000;
+        background-color: #191919;
         padding: 10px 0;
         text-align: center;
     }
 
     footer p {
         margin: 0;
-        color: #E0AA3E;
-        font-family: 'Poppins', sans-serif;
+        color: #2163AD;
+        font-family: 'Poppins', bold;
+
     }
 
 </style>

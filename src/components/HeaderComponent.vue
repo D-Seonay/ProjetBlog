@@ -24,15 +24,15 @@
   @import url('https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic');
 
   header {
-      background-color: #000;
+      background-color: #191919;
       padding: 10px 0;
       text-align: center;
   }
 
   header h1 {
       margin: 0;
-      color: #E0AA3E;
-      font-family: 'Poppins', sans-serif;
+      color: #2163AD;
+      font-family: 'Poppins', bold;
   }
 
   nav {
