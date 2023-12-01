@@ -1,6 +1,8 @@
 <template>
   <HeaderComponent />
 
+  <SidebarComponent />
+
   <ArticleComponent :article="currentArticle" />
 
   <FooterComponent />
@@ -10,11 +12,13 @@
 import HeaderComponent from './components/HeaderComponent.vue'
 import FooterComponent from './components/FooterComponent.vue'
 import ArticleComponent from './components/ArticleComponent.vue'
+import SidebarComponent from './components/SidebarComponent.vue'
 
 export default {
   name: 'ParentComponent',
   components: {
     HeaderComponent,
+    SidebarComponent, 
     FooterComponent,
     ArticleComponent
   },
