@@ -27,17 +27,27 @@ h3 {
 }
 
 ul {
-  list-style-type: none;
-  padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
 }
 
 li {
-  margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
 }
 
 a {
   text-decoration: none;
   color: #333;
+  margin: 10px;
 }
 
 a:hover {
